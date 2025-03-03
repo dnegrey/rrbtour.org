@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: site
+  output-dir: docs
 website:
   title: "Rocky River Bowling Tour"
   description: Website for the Rocky River Bowling Tour
@@ -17,8 +17,6 @@ website:
     foreground: "#FFFFFF"
     left:
       - index.qmd
-      - text: "Test"
-        href: index.qmd
 format:
   html:
     smooth-scroll: true
