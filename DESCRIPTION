@@ -1,0 +1,6 @@
+Type: Quarto
+Title: Website for the Rocky River Bowling Tour
+Description: Source code and rendered assets for the Rocky River Bowling Tour
+  website.
+Depends:
+  quarto (>= 1.4.4)

@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: site
+website:
+  title: "Rocky River Bowling Tour"
+  description: Website for the Rocky River Bowling Tour
+  site-url: https://rrbtour.org/
+  favicon: www/favicon.png
+  open-graph: true
+  back-to-top-navigation: true
+  page-footer:
+    center: "Copyright &#169; 2025 Rocky River Bowling Tour. All rights reserved."
+  navbar:
+    pinned: true
+    search: true
+    background: "#762F3E"
+    foreground: "#FFFFFF"
+    left:
+      - index.qmd
+      - text: "Test"
+        href: index.qmd
+format:
+  html:
+    smooth-scroll: true
+    theme: [flatly, www/custom.scss]
+    css: www/styles.css

@@ -1,2 +1,5 @@
 # rrbtour.org
-Website for Rocky River Bowling Tour
+
+*Source code and rendered assets for the Rocky River Bowling Tour website.*
+
+----------
