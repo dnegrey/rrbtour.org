@@ -5,7 +5,7 @@ website:
   title: "Rocky River Bowling Tour"
   description: Website for the Rocky River Bowling Tour
   site-url: https://rrbtour.org/
-  favicon: www/favicon.png
+  favicon: www/favicon.webp
   open-graph: true
   back-to-top-navigation: true
   page-footer:
