@@ -17,6 +17,12 @@ website:
     foreground: "#FFFFFF"
     left:
       - index.qmd
+      - text: "Members"
+        href: members/index.qmd
+      - text: "Events"
+        href: events/index.qmd
+      - text: "Locations"
+        href: locations/index.qmd
 format:
   html:
     smooth-scroll: true
