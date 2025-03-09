@@ -1,0 +1,66 @@
+## ![](https://therollhouse.com/north-olmsted/wp-content/uploads/sites/6/2024/03/RollHouse-North-Olmsted-White-Trans.png) {#roll-house-north-olmsted}
+
+::: {layout-ncol=2}
+
+::: {}
+
+::: {.tour-location-image style="background-image: url(\"https://therollhouse.com/north-olmsted/wp-content/uploads/sites/6/2024/06/NO-Open-Bowling.jpeg\")"}
+:::
+
+:::
+
+::: {}
+
+```{r}
+library(leaflet)
+latitude <- 41.4275543
+longitude <- -81.892962
+loc_url <- "https://therollhouse.com/north-olmsted/"
+loc_name <- "RollHouse North Olmsted"
+loc_street <- "24488 Lorain Road"
+loc_city <- "North Olmsted, OH 44070"
+loc_phone <- "(440) 777-6363"
+leaflet(height = "300px") |>
+  addTiles() |>
+  setView(
+    lng = longitude,
+    lat = latitude,
+    zoom = 15
+  ) |>
+  addMarkers(
+    lng = longitude,
+    lat = latitude,
+    popup = paste(
+      sprintf(
+        fmt = "<b><a href='%s' target=_blank>%s</a></b>",
+        loc_url,
+        loc_name
+      ),
+      loc_street,
+      loc_city,
+      loc_phone,
+      sep = "<br>"
+    ),
+    popupOptions = popupOptions(closeButton = FALSE)
+  ) |>
+  addPopups(
+    lng = longitude + 0.00005,
+    lat = latitude + 0.0011,
+    popup = paste(
+      sprintf(
+        fmt = "<b><a href='%s' target=_blank>%s</a></b>",
+        loc_url,
+        loc_name
+      ),
+      loc_street,
+      loc_city,
+      loc_phone,
+      sep = "<br>"
+    ),
+    options = popupOptions(closeButton = FALSE)
+  )
+```
+
+:::
+
+:::

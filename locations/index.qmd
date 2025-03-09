@@ -1,12 +1,14 @@
 ---
 title: "Tour Locations"
+execute:
+  echo: false
+  freeze: auto
 page-layout: full
+css: styles.css
 ---
 
-## Mahall's (Lakewood) {#mahalls}
+{{< include mahalls.qmd >}}
 
-
-
-## Roll House (North Olmsted) {#roll-house-north-olmsted}
+{{< include roll-house-north-olmsted.qmd >}}
 
 
