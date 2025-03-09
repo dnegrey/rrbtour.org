@@ -1,32 +1,18 @@
 ---
 title: "Tour Events"
+toc: true
+toc-depth: 2
+toc-expand: true
+toc-title: "Events:"
 page-layout: full
+css: styles.css
 ---
 
-<!-- { -->
-<!--   1: { -->
-<!--     date: "2024-01-25", -->
-<!--     location: "Mahall's", -->
-<!--     members: ["Dan", "Jim", "Kevin"] -->
-<!--   }, -->
-<!--   2: { -->
-<!--     date: "2024-04-16", -->
-<!--     location: "Roll House North Olmsted", -->
-<!--     members: ["Dan", "Jim", "Kevin"] -->
-<!--   }, -->
-<!--   3: { -->
-<!--     date: "2024-11-16", -->
-<!--     location: "Roll House North Olmsted", -->
-<!--     members: ["Allen", "Dan", "Jim", "Kevin"] -->
-<!--   }, -->
-<!--   4: { -->
-<!--     date: "2025-01-19", -->
-<!--     location: "Roll House North Olmsted", -->
-<!--     members: ["Brian", "Dan", "Jim", "Kevin"] -->
-<!--   } -->
-<!-- } -->
+# 2025
 
 {{< include event_4.qmd >}}
+
+# 2024
 
 {{< include event_3.qmd >}}
 

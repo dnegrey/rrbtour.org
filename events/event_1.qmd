@@ -1,4 +1,17 @@
 ## Inaugural Event
 
-> January 25, 2024
-<br>[Mahall's (Lakewood)](../locations#mahalls)
+> <i class="bi bi-calendar3"></i> January 25, 2024
+<br><i class="bi bi-person-circle"></i> Dan, Jim, Kevin
+<br><i class="bi bi-geo-alt-fill"></i> [Mahall's (Lakewood)](../locations#mahalls)
+
+::: {.panel-tabset}
+
+### Final
+
+### Game 1
+
+### Game 2
+
+### Game 3
+
+:::

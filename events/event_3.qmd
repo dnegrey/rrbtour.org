@@ -1,0 +1,17 @@
+## Fall Open {#fall-open-2024}
+
+> <i class="bi bi-calendar3"></i> November 16, 2024
+<br><i class="bi bi-person-circle"></i> Allen, Dan, Jim, Kevin
+<br><i class="bi bi-geo-alt-fill"></i> [Roll House (North Olmsted)](../locations#roll-house-north-olmsted)
+
+::: {.panel-tabset}
+
+### Final
+
+### Game 1
+
+### Game 2
+
+### Game 3
+
+:::
