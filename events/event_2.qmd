@@ -1,8 +1,8 @@
-## Spring Open {#spring-open-2024}
+## Spring Classic {#spring-classic-2024}
 
 > <i class="bi bi-calendar3"></i> April 16, 2024
 <br><i class="bi bi-person-circle"></i> Dan, Jim, Kevin
-<br><i class="bi bi-geo-alt-fill"></i> [Roll House (North Olmsted)](../locations#roll-house-north-olmsted)
+<br><i class="bi bi-geo-alt-fill"></i> [RollHouse North Olmsted](../locations#rollhouse-north-olmsted)
 
 ::: {.panel-tabset}
 

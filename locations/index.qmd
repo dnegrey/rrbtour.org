@@ -2,13 +2,16 @@
 title: "Tour Locations"
 execute:
   echo: false
-  freeze: auto
 page-layout: full
 css: styles.css
+back-to-top-navigation: false
+format:
+  html:
+    resources: images/*
 ---
 
 {{< include mahalls.qmd >}}
 
-{{< include roll-house-north-olmsted.qmd >}}
+{{< include rollhouse-north-olmsted.qmd >}}
 
 

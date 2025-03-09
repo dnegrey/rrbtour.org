@@ -2,7 +2,7 @@
 
 > <i class="bi bi-calendar3"></i> January 25, 2024
 <br><i class="bi bi-person-circle"></i> Dan, Jim, Kevin
-<br><i class="bi bi-geo-alt-fill"></i> [Mahall's (Lakewood)](../locations#mahalls)
+<br><i class="bi bi-geo-alt-fill"></i> [Mahall's](../locations#mahalls)
 
 ::: {.panel-tabset}
 

@@ -1,10 +1,10 @@
-## ![](https://therollhouse.com/north-olmsted/wp-content/uploads/sites/6/2024/03/RollHouse-North-Olmsted-White-Trans.png) {#roll-house-north-olmsted}
+## ![](images/rollhouse-north-olmsted-logo.png) {#rollhouse-north-olmsted}
 
 ::: {layout-ncol=2}
 
 ::: {}
 
-::: {.tour-location-image style="background-image: url(\"https://therollhouse.com/north-olmsted/wp-content/uploads/sites/6/2024/06/NO-Open-Bowling.jpeg\")"}
+::: {.tour-location-image style="background-image: url(\"images/rollhouse-north-olmsted-image.jpg\")"}
 :::
 
 :::

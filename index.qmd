@@ -4,6 +4,7 @@ image: www/mahalls20240125.jpeg
 about:
   id: hero-heading
   template: jolla
+back-to-top-navigation: false
 ---
 
-Welcome to the Rocky River Bowling Tour website!
+Welcome to the Rocky River Bowling Tour!

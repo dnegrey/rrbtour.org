@@ -1,10 +1,10 @@
-## ![](https://mahalls20lanes.com/wp-content/uploads/2023/06/logo.png) {#mahalls}
+## ![](images/mahalls-logo.png) {#mahalls}
 
 ::: {layout-ncol=2}
 
 ::: {}
 
-::: {.tour-location-image style="background-image: url(\"https://mahalls20lanes.com/wp-content/uploads/2023/06/IMG_8199-1200x800.jpeg\")"}
+::: {.tour-location-image style="background-image: url(\"images/mahalls-image.jpeg\")"}
 :::
 
 :::

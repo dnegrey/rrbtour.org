@@ -1,4 +1,5 @@
 ---
 title: "Tour Members"
 page-layout: full
+back-to-top-navigation: false
 ---

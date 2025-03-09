@@ -8,3 +8,6 @@
 .navbar-nav .nav-link.active {
   text-decoration: underline;
 }
+.nav-footer-center {
+  white-space: nowrap;
+}
