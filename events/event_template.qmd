@@ -1,0 +1,17 @@
+## %s
+
+> <i class="bi bi-calendar3"></i> %s
+<br><i class="bi bi-person-circle"></i> %s
+<br><i class="bi bi-geo-alt-fill"></i> [%s](../locations#%s)
+
+::: {.panel-tabset}
+
+### Final
+
+%s
+
+### Game 1
+
+%s
+
+:::
