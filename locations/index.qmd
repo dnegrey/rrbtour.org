@@ -6,7 +6,7 @@ back-to-top-navigation: false
 format:
   html:
     resources: images/*
-    pagetitle: "Locations"
+    pagetitle: "Rocky River Bowling Tour - Locations"
 execute:
   echo: false
   output: false

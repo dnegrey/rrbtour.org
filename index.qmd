@@ -1,6 +1,6 @@
 ---
 title: "Home"
-image: www/mahalls20240125.jpeg
+image: www/mahalls_inaugural.jpg
 about:
   id: hero-heading
   template: jolla
