@@ -10,12 +10,12 @@ css: styles.css
 
 # 2025
 
-{{< include event_4.qmd >}}
+{{< include _event_4.qmd >}}
 
 # 2024
 
-{{< include event_3.qmd >}}
+{{< include _event_3.qmd >}}
 
-{{< include event_2.qmd >}}
+{{< include _event_2.qmd >}}
 
-{{< include event_1.qmd >}}
+{{< include _event_1.qmd >}}
