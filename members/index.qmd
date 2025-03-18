@@ -5,6 +5,7 @@ back-to-top-navigation: false
 format:
   html:
     resources: images/*
+    pagetitle: "Members"
 execute:
   echo: false
   output: false

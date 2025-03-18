@@ -6,6 +6,9 @@ toc-expand: true
 toc-title: "Events:"
 page-layout: full
 css: styles.css
+format:
+  html:
+    pagetitle: "Events"
 ---
 
 # 2025
