@@ -1,15 +1,19 @@
 ---
 title: "Tour Locations"
-execute:
-  echo: false
-  freeze: auto
 page-layout: full
 css: styles.css
 back-to-top-navigation: false
 format:
   html:
     resources: images/*
+execute:
+  include: false
+  freeze: auto
 ---
+
+```{r}
+#| file: R/setup.R
+```
 
 {{< include mahalls.qmd >}}
 

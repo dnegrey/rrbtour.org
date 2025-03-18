@@ -1,0 +1,46 @@
+::: {.tour-member-card}
+
+::: {.tour-member-photo-container}
+
+::: {.tour-member-photo style="background-image: url(\"images/dnegrey.jpg\")"}
+:::
+
+:::
+
+::: {.tour-member-name}
+
+Dan Negrey
+
+:::
+
+::: {.tour-member-title}
+
+Co-Founder, Webmaster
+
+:::
+
+::: {.tour-member-stats}
+
+```{r}
+tour_stats <- get_tour_stats("dnegrey")
+tour_avg <- tour_stats$game_avg
+tour_max <- tour_stats$game_max
+```
+
+{{< fa bowling-ball >}} Average: `{r} tour_avg` | High: `{r} tour_max`
+
+:::
+
+::: {.tour-member-drink}
+
+{{< fa whiskey-glass >}} Old Fashioned
+
+:::
+
+::: {.tour-member-quote}
+
+{{< fa quote-left >}} *Mike Dexter is a role model!*
+
+:::
+
+:::

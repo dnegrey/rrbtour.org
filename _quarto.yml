@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  execute-dir: project
 website:
   title: "Rocky River Bowling Tour"
   description: Website for the Rocky River Bowling Tour

@@ -12,7 +12,6 @@
 ::: {}
 
 ```{r}
-library(leaflet)
 latitude <- 41.4773603
 longitude <- -81.7811843
 loc_url <- "https://mahalls20lanes.com/"

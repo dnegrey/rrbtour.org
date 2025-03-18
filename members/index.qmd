@@ -2,4 +2,19 @@
 title: "Tour Members"
 page-layout: full
 back-to-top-navigation: false
+format:
+  html:
+    resources: images/*
+execute:
+  include: false
 ---
+
+```{r}
+#| file: R/setup.R
+```
+
+::: {.tour-member-container}
+
+{{< include _dnegrey.qmd >}}
+
+:::

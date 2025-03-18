@@ -3,6 +3,7 @@ Title: Website for the Rocky River Bowling Tour
 Description: Source code and rendered assets for the Rocky River Bowling Tour
   website.
 Depends:
+  dplyr (>= 1.1.4),
   DT (>= 0.33),
   jsonlite (>= 1.9.0),
   leaflet (>= 2.2.2),
