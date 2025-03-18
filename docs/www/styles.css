@@ -1,0 +1,90 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.navbar-title {
+  text-transform: uppercase;
+  font-family: Monoton, sans-serif;
+  padding-left: 5px;
+  text-shadow: -5px 5px 2px #000000;
+}
+.navbar-nav .nav-link.active {
+  text-decoration: underline;
+}
+.nav-footer-center {
+  white-space: nowrap;
+}
+
+/* Tour Members */
+
+.tour-member-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.tour-member-card {
+  width: 280px;
+  text-align: center;
+  padding-top: 17px;
+  color: #CCCCCC;
+  background-color: #333333;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.tour-member-photo-container {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid #CCCCCC;
+  background-color: #CCCCCC;
+  width: 200px;
+  height: 200px;
+}
+.tour-member-photo {
+  background-size: cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.tour-member-name {
+  margin-top: 10px;
+  font-weight: 600;
+}
+.tour-member-name p,
+.tour-member-title p {
+  margin-bottom: 0;
+}
+.tour-member-title {
+  font-size: small;
+}
+.tour-member-stats {
+  margin-top: 10px;
+}
+.tour-member-quote {
+  margin-bottom: 10px;
+}
+.tour-member-stats,
+.tour-member-drink,
+.tour-member-quote {
+  font-size: smaller;
+  padding-left: 20px;
+  padding-right: 10px;
+  text-align: left;
+}
+.tour-member-stats p,
+.tour-member-drink p,
+.tour-member-quote p {
+  margin-bottom: 5px;
+}
+.tour-member-stats i,
+.tour-member-drink i,
+.tour-member-quote i {
+  margin-right: 5px;
+}
+.tour-member-card:hover {
+  background-color: #762F3E;
+  color: #FFFFFF;
+}
+.tour-member-card:hover .tour-member-photo-container {
+  border-color: #FFFFFF;
+}

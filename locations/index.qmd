@@ -7,7 +7,8 @@ format:
   html:
     resources: images/*
 execute:
-  include: false
+  echo: false
+  output: false
   freeze: auto
 ---
 
@@ -15,8 +16,6 @@ execute:
 #| file: R/setup.R
 ```
 
-{{< include mahalls.qmd >}}
+{{< include _mahalls.qmd >}}
 
-{{< include rollhouse-north-olmsted.qmd >}}
-
-
+{{< include _rollhouse-north-olmsted.qmd >}}

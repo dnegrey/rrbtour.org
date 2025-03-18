@@ -6,7 +6,8 @@ format:
   html:
     resources: images/*
 execute:
-  include: false
+  echo: false
+  output: false
 ---
 
 ```{r}

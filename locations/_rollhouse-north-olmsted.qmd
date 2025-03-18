@@ -12,6 +12,7 @@
 ::: {}
 
 ```{r}
+#| output: true
 latitude <- 41.4275543
 longitude <- -81.892962
 loc_url <- "https://therollhouse.com/north-olmsted/"
