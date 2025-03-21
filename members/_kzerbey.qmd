@@ -1,0 +1,46 @@
+::: {.tour-member-card}
+
+::: {.tour-member-photo-container}
+
+::: {.tour-member-photo style="background-image: url(\"images/kzerbey.jpg\")"}
+:::
+
+:::
+
+::: {.tour-member-name}
+
+Kevin Zerbey
+
+:::
+
+::: {.tour-member-title}
+
+Co-Founder, Technical Director
+
+:::
+
+::: {.tour-member-stats}
+
+```{r}
+tour_stats <- get_tour_stats("kzerbey")
+tour_avg <- tour_stats$game_avg
+tour_max <- tour_stats$game_max
+```
+
+{{< fa bowling-ball >}} Average: `{r} tour_avg` | High: `{r} tour_max`
+
+:::
+
+::: {.tour-member-drink}
+
+{{< fa whiskey-glass >}} Kentucky Mule
+
+:::
+
+::: {.tour-member-quote}
+
+{{< fa quote-left >}} *Yeah 220, 221. Whatever it takes.*
+
+:::
+
+:::
