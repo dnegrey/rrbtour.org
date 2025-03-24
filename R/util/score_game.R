@@ -101,5 +101,13 @@ score_game <- function(x) {
   z <- do.call(rbind, y)
   row.names(z) <- NULL
   z$score <- cumsum(z$sf)
+  names(z) <- c(
+    "Frame",
+    "Pins1", "Pins2",
+    "Mark1", "Mark2",
+    "Score1", "Score2",
+    "Pins3", "Mark3",
+    "ScoreFrame", "ScoreTotal"
+  )
   return(z)
 }
