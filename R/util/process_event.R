@@ -18,11 +18,13 @@ process_event <- function(f) {
   tmp <- anti_join(xd, td, "EventId")
   if (nrow(tmp) > 0) {
     xd <- cbind(xd, x$scores)
-    write.csv(
+    write.table(
       x = xd,
       file = "var/tour_data.csv",
       append = TRUE,
-      row.names = FALSE
+      sep = ",",
+      row.names = FALSE,
+      col.names = FALSE
     )
   }
 }
