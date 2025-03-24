@@ -22,8 +22,8 @@ score_game <- function(x) {
     stopifnot(
       !is.null(b1),
       b1 %in% 0:10,
-      !(is.null(b2) & b1 != 10),
-      !(b1 == 10 & !is.null(b2)),
+      !(i < 10 & is.null(b2) & b1 != 10),
+      !(i < 10 & b1 == 10 & !is.null(b2)),
       is.null(b2) || b2 %in% 0:10,
       is.null(b3) || b3 %in% 0:10,
       !(i == 10 & is.null(b2))
@@ -85,6 +85,11 @@ score_game <- function(x) {
       s2 <- 0
     } else {
       s2 <- x2[1]
+    }
+    if (i == 10) {
+      if (p1 == 10) {
+        s2 <- as.numeric(NA)
+      }
     }
     sf <- sum(s1, s2, na.rm = TRUE)
     # Return row for data frame
