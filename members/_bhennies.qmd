@@ -9,7 +9,16 @@
 
 ::: {.tour-member-name}
 
-Brian Hennies
+```{r}
+tour_member <- "Brian Hennies"
+tour_stats <- get_member_stats(tour_member)
+tour_num <- tour_stats$game_count
+tour_avg <- tour_stats$game_avg
+tour_max <- tour_stats$game_max
+tour_date <- tour_stats$date_min
+```
+
+`{r} tour_member`
 
 :::
 
@@ -17,19 +26,13 @@ Brian Hennies
 
 Board Member
 
-Member since January 19, 2025
+Member since `{r} format(tour_date, "%B %d, %Y")`
 
 :::
 
 ::: {.tour-member-stats}
 
-```{r}
-tour_stats <- get_tour_stats("bhennies")
-tour_avg <- tour_stats$game_avg
-tour_max <- tour_stats$game_max
-```
-
-{{< fa bowling-ball >}} Average: **`{r} tour_avg`** | High: **`{r} tour_max`**
+{{< fa bowling-ball >}} Games (**`{r} tour_num`**) Average (**`{r} tour_avg`**) High (**`{r} tour_max`**)
 
 :::
 
