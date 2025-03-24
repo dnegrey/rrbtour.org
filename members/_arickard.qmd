@@ -2,29 +2,29 @@
 
 ::: {.tour-member-photo-container}
 
-::: {.tour-member-photo style="background-image: url(\"images/dnegrey.jpg\")"}
+::: {.tour-member-photo style="background-image: url(\"images/arickard.jpg\")"}
 :::
 
 :::
 
 ::: {.tour-member-name}
 
-Dan Negrey
+Allen Rickard
 
 :::
 
 ::: {.tour-member-title}
 
-Co-Founder
+Board Member
 
-Member since January 25, 2024
+Member since November 16, 2024
 
 :::
 
 ::: {.tour-member-stats}
 
 ```{r}
-tour_stats <- get_tour_stats("dnegrey")
+tour_stats <- get_tour_stats("arickard")
 tour_avg <- tour_stats$game_avg
 tour_max <- tour_stats$game_max
 ```
@@ -41,7 +41,7 @@ tour_max <- tour_stats$game_max
 
 ::: {.tour-member-quote}
 
-{{< fa quote-left >}} *Viva la pool house!*
+{{< fa quote-left >}} *Who do you think you are? I am!*
 
 :::
 

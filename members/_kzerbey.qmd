@@ -15,7 +15,9 @@ Kevin Zerbey
 
 ::: {.tour-member-title}
 
-Co-Founder, Technical Director
+Co-Founder
+
+Member since January 25, 2024
 
 :::
 
@@ -27,7 +29,7 @@ tour_avg <- tour_stats$game_avg
 tour_max <- tour_stats$game_max
 ```
 
-{{< fa bowling-ball >}} Average: `{r} tour_avg` | High: `{r} tour_max`
+{{< fa bowling-ball >}} Average: **`{r} tour_avg`** | High: **`{r} tour_max`**
 
 :::
 

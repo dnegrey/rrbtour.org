@@ -2,29 +2,29 @@
 
 ::: {.tour-member-photo-container}
 
-::: {.tour-member-photo style="background-image: url(\"images/dnegrey.jpg\")"}
+::: {.tour-member-photo style="background-image: url(\"images/bhennies.jpg\")"}
 :::
 
 :::
 
 ::: {.tour-member-name}
 
-Dan Negrey
+Brian Hennies
 
 :::
 
 ::: {.tour-member-title}
 
-Co-Founder
+Board Member
 
-Member since January 25, 2024
+Member since January 19, 2025
 
 :::
 
 ::: {.tour-member-stats}
 
 ```{r}
-tour_stats <- get_tour_stats("dnegrey")
+tour_stats <- get_tour_stats("bhennies")
 tour_avg <- tour_stats$game_avg
 tour_max <- tour_stats$game_max
 ```
@@ -35,13 +35,13 @@ tour_max <- tour_stats$game_max
 
 ::: {.tour-member-drink}
 
-{{< fa whiskey-glass >}} Old Fashioned
+{{< fa whiskey-glass >}} Anything Wet
 
 :::
 
 ::: {.tour-member-quote}
 
-{{< fa quote-left >}} *Viva la pool house!*
+{{< fa quote-left >}} *If you ain't first you're last.*
 
 :::
 

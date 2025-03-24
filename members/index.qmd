@@ -19,6 +19,12 @@ execute:
 
 {{< include _dnegrey.qmd >}}
 
+{{< include _jschenker.qmd >}}
+
 {{< include _kzerbey.qmd >}}
+
+{{< include _arickard.qmd >}}
+
+{{< include _bhennies.qmd >}}
 
 :::
