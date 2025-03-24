@@ -1,5 +1,5 @@
 read_event <- function(f) {
-  x <- jsonlite::read_json(f)
+  x <- read_json(f)
   y <- list(
     name = x$name,
     date = as.Date(x$date),

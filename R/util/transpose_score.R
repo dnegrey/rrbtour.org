@@ -20,17 +20,19 @@ transpose_score <- function(x) {
     s
   ) |>
     select(
-      Total, Strikes, Spares, Marks,
-      M1_1, M2_1, S_1,
-      M1_2, M2_2, S_2,
-      M1_3, M2_3, S_3,
-      M1_4, M2_4, S_4,
-      M1_5, M2_5, S_5,
-      M1_6, M2_6, S_6,
-      M1_7, M2_7, S_7,
-      M1_8, M2_8, S_8,
-      M1_9, M2_9, S_9,
-      M1_10, M2_10, M3_10, S_10,
+      GameScore = Total,
+      GameStrikes = Strikes, GameSpares = Spares, GameMarks = Marks,
+      Frame1_Mark1 = M1_1, Frame1_Mark2 = M2_1, Frame1_Score = S_1,
+      Frame2_Mark1 = M1_2, Frame2_Mark2 = M2_2, Frame2_Score = S_2,
+      Frame3_Mark1 = M1_3, Frame3_Mark2 = M2_3, Frame3_Score = S_3,
+      Frame4_Mark1 = M1_4, Frame4_Mark2 = M2_4, Frame4_Score = S_4,
+      Frame5_Mark1 = M1_5, Frame5_Mark2 = M2_5, Frame5_Score = S_5,
+      Frame6_Mark1 = M1_6, Frame6_Mark2 = M2_6, Frame6_Score = S_6,
+      Frame7_Mark1 = M1_7, Frame7_Mark2 = M2_7, Frame7_Score = S_7,
+      Frame8_Mark1 = M1_8, Frame8_Mark2 = M2_8, Frame8_Score = S_8,
+      Frame9_Mark1 = M1_9, Frame9_Mark2 = M2_9, Frame9_Score = S_9,
+      Frame10_Mark1 = M1_10, Frame10_Mark2 = M2_10, Frame10_Mark3 = M3_10,
+      Frame10_Score = S_10,
     )
   return(y)
 }
