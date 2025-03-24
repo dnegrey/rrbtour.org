@@ -4,14 +4,14 @@
     "href": "events/index.html",
     "title": "Tour Events",
     "section": "",
-    "text": "January 19, 2025  Brian, Dan, Jim, Kevin  RollHouse North Olmsted\n\n\nFinalGame 1Game 2Game 3"
+    "text": "library(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(DT)\nlibrary(jsonlite)\nlibrary(leaflet)\n\nsource(\"R/util/source_functions.R\")\nsource_functions(\"R/util\")"
   },
   {
     "objectID": "events/index.html#mlk-invitational-2025",
     "href": "events/index.html#mlk-invitational-2025",
     "title": "Tour Events",
-    "section": "",
-    "text": "January 19, 2025  Brian, Dan, Jim, Kevin  RollHouse North Olmsted\n\n\nFinalGame 1Game 2Game 3"
+    "section": "MLK Invitational",
+    "text": "MLK Invitational\n\n January 19, 2025  Brian, Dan, Jim, Kevin  RollHouse North Olmsted\n\n\nFinalGame 1Game 2Game 3"
   },
   {
     "objectID": "events/index.html#fall-open-2024",
@@ -46,6 +46,6 @@
     "href": "members/index.html",
     "title": "Tour Members",
     "section": "",
-    "text": "Dan Negrey\n\n\nCo-Founder\nMember since January 25, 2024\n\n\n Average: 151 | High: 199\n\n\n Old Fashioned\n\n\n Viva la pool house!\n\n\n\n\n\n\n\n\n\nJim Schenker\n\n\nCo-Founder\nMember since January 25, 2024\n\n\n Average: 151 | High: 199\n\n\n Bourbon Neat\n\n\n Keep ‘em comin’, sweets, I got a long drive.\n\n\n\n\n\n\n\n\n\nKevin Zerbey\n\n\nCo-Founder\nMember since January 25, 2024\n\n\n Average: 151 | High: 199\n\n\n Kentucky Mule\n\n\n Yeah 220, 221. Whatever it takes.\n\n\n\n\n\n\n\n\n\nAllen Rickard\n\n\nBoard Member\nMember since November 16, 2024\n\n\n Average: 151 | High: 199\n\n\n Old Fashioned\n\n\n Who do you think you are? I am!\n\n\n\n\n\n\n\n\n\nBrian Hennies\n\n\nBoard Member\nMember since January 19, 2025\n\n\n Average: 151 | High: 199\n\n\n Anything Wet\n\n\n If you ain’t first you’re last."
+    "text": "Dan Negrey\n\n\nCo-Founder\nMember since January 25, 2024\n\n\n Games (11) Average (131) High (162)\n\n\n Old Fashioned\n\n\n Viva la pool house!\n\n\n\n\n\n\n\n\n\nJim Schenker\n\n\nCo-Founder\nMember since January 25, 2024\n\n\n Games (11) Average (93) High (121)\n\n\n Bourbon Neat\n\n\n Keep ‘em comin’, sweets, I got a long drive.\n\n\n\n\n\n\n\n\n\nKevin Zerbey\n\n\nCo-Founder\nMember since January 25, 2024\n\n\n Games (11) Average (133) High (151)\n\n\n Kentucky Mule\n\n\n Yeah 220, 221. Whatever it takes.\n\n\n\n\n\n\n\n\n\nAllen Rickard\n\n\nBoard Member\nMember since November 16, 2024\n\n\n Games (3) Average (145) High (168)\n\n\n Old Fashioned\n\n\n Who do you think you are? I am!\n\n\n\n\n\n\n\n\n\nBrian Hennies\n\n\nBoard Member\nMember since January 19, 2025\n\n\n Games (3) Average (130) High (158)\n\n\n Anything Wet\n\n\n If you ain’t first you’re last."
   }
 ]
