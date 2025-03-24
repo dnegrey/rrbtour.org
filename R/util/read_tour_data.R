@@ -5,6 +5,7 @@ read_tour_data <- function(f = "var/tour_data.csv") {
     na.strings = "NA",
     colClasses = "character"
   )
+  x$EventId <- as.integer(x$EventId)
   x$EventDate <- as.Date(x$EventDate)
   x$EventNumGames <- as.integer(x$EventNumGames)
   x$Game <- as.integer(x$Game)
