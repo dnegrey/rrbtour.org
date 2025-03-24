@@ -11,6 +11,10 @@ format:
     pagetitle: "Rocky River Bowling Tour - Events"
 ---
 
+```{r}
+#| file: R/setup.R
+```
+
 # 2025
 
 {{< include _event_4.qmd >}}
