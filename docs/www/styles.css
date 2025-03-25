@@ -66,7 +66,7 @@
 .tour-member-stats,
 .tour-member-drink,
 .tour-member-quote {
-  font-size: smaller;
+  font-size: small;
   padding-left: 20px;
   padding-right: 10px;
   text-align: left;
@@ -87,4 +87,25 @@
 }
 .tour-member-card:hover .tour-member-photo-container {
   border-color: #FFFFFF;
+}
+
+/* Tour Events */
+.event_table {
+  background-color: #762F3E !important;
+  color: #FFF;
+  font-size: small;
+  padding: 10px;
+  border: 3px solid #333333;
+  border-bottom: 3px solid #333333 !important;
+}
+.event_table thead tr th {
+  border-color: #CCCCCC !important;
+}
+.event_table tbody {
+  color: #CCCCCC;
+}
+.event_table tbody tr td {
+  border-color: #CCCCCC !important;
+  border-bottom: 1px solid;
+  border-top: none !important;
 }
