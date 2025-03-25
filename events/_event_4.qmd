@@ -9,38 +9,30 @@ x <- read_tour_data() |>
   filter(EventId == 4)
 ```
 
-### Result
+### Result {#mlk-invitational-2025-result}
 
 ```{r}
 #| output: true
 event_table(x)
 ```
 
-### Games
-
-::: {.panel-tabset}
-
-#### Empty
-
-#### Game 1
+### Game 1 {#mlk-invitational-2025-game-1}
 
 ```{r}
 #| output: true
 game_table(filter(x, Game == 1))
 ```
 
-#### Game 2
+### Game 2 {#mlk-invitational-2025-game-2}
 
 ```{r}
 #| output: true
 game_table(filter(x, Game == 2))
 ```
 
-#### Game 3
+### Game 3 {#mlk-invitational-2025-game-3}
 
 ```{r}
 #| output: true
 game_table(filter(x, Game == 3))
 ```
-
-:::

@@ -40,7 +40,8 @@ process_event <- function(f) {
       x$location,
       x$loc_short,
       xid,
-      generate_game_table_code(x$num_games)
+      paste(x$tag, "result", sep = "-"),
+      generate_game_table_code(x$tag, x$num_games)
     )
     write(xr, report)
   }
