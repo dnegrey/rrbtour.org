@@ -5,9 +5,14 @@ event_table <- function(x) {
     class = "compact nowrap cell-border event_table",
     options = list(
       dom = "t",
-      pageLength = nrow(x),
+      pageLength = nrow(y),
       ordering = FALSE
     ),
     rownames = FALSE
-  )
+  ) |>
+    formatStyle(
+      columns = c("Total", "Place"),
+      fontWeight = "bold",
+      color = "#FFFFFF"
+    )
 }

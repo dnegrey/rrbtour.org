@@ -9,30 +9,34 @@ x <- read_tour_data() |>
   filter(EventId == 3)
 ```
 
-::: {.panel-tabset}
-
-### Final
+### Result
 
 ```{r}
 #| output: true
 event_table(x)
 ```
 
-### Game 1
+### Games
+
+::: {.panel-tabset}
+
+#### Empty
+
+#### Game 1
 
 ```{r}
 #| output: true
 game_table(filter(x, Game == 1))
 ```
 
-### Game 2
+#### Game 2
 
 ```{r}
 #| output: true
 game_table(filter(x, Game == 2))
 ```
 
-### Game 3
+#### Game 3
 
 ```{r}
 #| output: true

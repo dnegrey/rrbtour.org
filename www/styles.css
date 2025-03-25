@@ -82,7 +82,6 @@
   margin-right: 5px;
 }
 .tour-member-card:hover {
-  background-color: #762F3E;
   color: #FFFFFF;
 }
 .tour-member-card:hover .tour-member-photo-container {
@@ -91,12 +90,11 @@
 
 /* Tour Events */
 .event_table {
-  background-color: #762F3E !important;
+  background-color: #333333 !important;
   color: #FFF;
   font-size: small;
-  padding: 10px;
-  border: 3px solid #333333;
-  border-bottom: 3px solid #333333 !important;
+  padding: 15px;
+  border-radius: 3px;
 }
 .event_table thead tr th {
   border-color: #CCCCCC !important;

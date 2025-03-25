@@ -9,14 +9,18 @@ x <- read_tour_data() |>
   filter(EventId == %s)
 ```
 
-::: {.panel-tabset}
-
-### Final
+### Result
 
 ```{r}
 #| output: true
 event_table(x)
 ```
+
+### Games
+
+::: {.panel-tabset}
+
+#### Empty
 
 %s
 
