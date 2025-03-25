@@ -44,7 +44,7 @@ Member since `{r} format(tour_date, "%B %d, %Y")`
 
 ::: {.tour-member-quote}
 
-{{< fa quote-left >}} *If you ain't first you're last.*
+{{< fa quote-left >}} *Time to put our balls where your pins are.*
 
 :::
 
