@@ -27,4 +27,21 @@ process_event <- function(f) {
       col.names = FALSE
     )
   }
+
+  # Create event report if necessary
+  report <- sprintf("events/_event_%s.qmd", xid)
+  if (!file.exists(report)) {
+    tmp <- paste(readLines("events/_event_template.qmd"), collapse = "\n")
+    xr <- sprintf(
+      fmt = tmp,
+      paste0(x$name, " {#", x$tag, "}"),
+      format(x$date, "%B %d, %Y"),
+      paste(x$members, collapse = ", "),
+      x$location,
+      x$loc_short,
+      xid,
+      generate_game_table_code(x$num_games)
+    )
+    write(xr, report)
+  }
 }

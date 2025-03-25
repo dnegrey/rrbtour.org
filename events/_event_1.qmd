@@ -1,17 +1,35 @@
-## Inaugural Event
+## Inaugural Event {#inaugural-event}
 
 > <i class="bi bi-calendar3"></i> January 25, 2024
-<br><i class="bi bi-person-circle"></i> Dan, Jim, Kevin
+<br><i class="bi bi-person-circle"></i> Dan Negrey, Jim Schenker, Kevin Zerbey
 <br><i class="bi bi-geo-alt-fill"></i> [Mahall's](../locations#mahalls)
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 1)
+```
 
 ::: {.panel-tabset}
 
 ### Final
 
+```{r}
+#| output: true
+event_table(x)
+```
+
 ### Game 1
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
 
 ### Game 2
 
-### Game 3
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
 
 :::

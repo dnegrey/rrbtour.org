@@ -1,17 +1,42 @@
 ## MLK Invitational {#mlk-invitational-2025}
 
 > <i class="bi bi-calendar3"></i> January 19, 2025
-<br><i class="bi bi-person-circle"></i> Brian, Dan, Jim, Kevin
+<br><i class="bi bi-person-circle"></i> Brian Hennies, Kevin Zerbey, Dan Negrey, Jim Schenker
 <br><i class="bi bi-geo-alt-fill"></i> [RollHouse North Olmsted](../locations#rollhouse-north-olmsted)
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 4)
+```
 
 ::: {.panel-tabset}
 
 ### Final
 
+```{r}
+#| output: true
+event_table(x)
+```
+
 ### Game 1
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
 
 ### Game 2
 
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
+
 ### Game 3
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 3))
+```
 
 :::

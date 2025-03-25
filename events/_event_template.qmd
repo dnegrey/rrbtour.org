@@ -4,13 +4,19 @@
 <br><i class="bi bi-person-circle"></i> %s
 <br><i class="bi bi-geo-alt-fill"></i> [%s](../locations#%s)
 
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == %s)
+```
+
 ::: {.panel-tabset}
 
 ### Final
 
-%s
-
-### Game 1
+```{r}
+#| output: true
+event_table(x)
+```
 
 %s
 
