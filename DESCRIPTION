@@ -5,6 +5,7 @@ Description: Source code and rendered assets for the Rocky River Bowling Tour
 Depends:
   dplyr (>= 1.1.4),
   DT (>= 0.33),
+  htmltools (>= 0.5.8.1),
   jsonlite (>= 1.9.0),
   leaflet (>= 2.2.2),
   quarto (>= 1.4.4)

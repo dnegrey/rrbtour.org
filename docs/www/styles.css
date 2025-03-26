@@ -91,10 +91,23 @@
 /* Tour Events */
 .event_table {
   background-color: #333333 !important;
-  color: #FFF;
+  color: #FFFFFF;
   font-size: small;
   padding: 15px;
-  border-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  caption-side: top;
+}
+.event_table caption {
+  text-align: left;
+  padding: 15px 0 0 15px;
+  color: #AC828B;
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+  background-color: #333333;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .event_table thead tr th {
   border-color: #CCCCCC !important;
@@ -106,4 +119,56 @@
   border-color: #CCCCCC !important;
   border-bottom: 1px solid;
   border-top: none !important;
+}
+.game_table {
+  background-color: #333333 !important;
+  color: #333333;
+  font-size: small;
+  padding: 15px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  caption-side: top;
+}
+.game_table caption {
+  text-align: left;
+  padding: 15px 0 0 15px;
+  color: #AC828B;
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+  background-color: #333333;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.game_table thead tr th {
+  color: #FFFFFF;
+  border-color: #FFFFFF !important;
+  text-align: center !important;
+}
+.game_table tbody {
+  color: #CCCCCC;
+}
+.game_table tbody tr td {
+  border-color: #CCCCCC !important;
+  border-bottom: 1px solid;
+  border-top: none !important;
+  padding: 0 !important;
+}
+.game_table tbody tr td p {
+  width: 100%;
+  min-width: 50px;
+}
+.game_table .game_member {
+  padding-left: 5px;
+}
+.game_table .frame_mark {
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+.game_table .frame_score {
+  margin-bottom: 5px;
+  padding-left: 5px;
 }

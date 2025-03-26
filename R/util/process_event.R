@@ -35,10 +35,10 @@ process_event <- function(f) {
     xr <- sprintf(
       fmt = tmp,
       paste0(x$name, " {#", x$tag, "}"),
-      format(x$date, "%B %d, %Y"),
-      paste(x$members, collapse = ", "),
       x$location,
       x$loc_short,
+      format(x$date, "%B %d, %Y"),
+      paste(x$members[order(x$members)], collapse = ", "),
       xid,
       paste(x$tag, "result", sep = "-"),
       generate_game_table_code(x$tag, x$num_games)

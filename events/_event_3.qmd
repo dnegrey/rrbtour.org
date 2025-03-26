@@ -1,8 +1,8 @@
 ## Fall Open {#fall-open-2024}
 
-> <i class="bi bi-calendar3"></i> November 16, 2024
+> <i class="bi bi-geo-alt-fill"></i> [RollHouse North Olmsted](../locations#rollhouse-north-olmsted)
+<br><i class="bi bi-calendar3"></i> November 16, 2024
 <br><i class="bi bi-person-circle"></i> Allen Rickard, Dan Negrey, Jim Schenker, Kevin Zerbey
-<br><i class="bi bi-geo-alt-fill"></i> [RollHouse North Olmsted](../locations#rollhouse-north-olmsted)
 
 ```{r}
 x <- read_tour_data() |>
