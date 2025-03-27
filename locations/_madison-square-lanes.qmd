@@ -1,10 +1,10 @@
-## ![](images/mahalls-logo.png) {#mahalls}
+## ![](images/madison-square-lanes-sign.jpg) {#madison-square-lanes}
 
 ::: {layout-ncol=2}
 
 ::: {}
 
-::: {.tour-location-image style="background-image: url(\"images/mahalls-image.jpg\")"}
+::: {.tour-location-image style="background-image: url(\"images/madison-square-lanes-image.jpg\")"}
 :::
 
 :::
@@ -13,13 +13,13 @@
 
 ```{r}
 #| output: true
-latitude <- 41.4773603
-longitude <- -81.7811843
-loc_url <- "https://mahalls20lanes.com/"
-loc_name <- "Mahall's Bar & Rec"
-loc_street <- "13200 Madison Ave"
+latitude <- 41.477523
+longitude <- -81.807216
+loc_url <- "https://www.yelp.com/biz/madison-square-lanes-lakewood"
+loc_name <- "Madison-Square Lanes"
+loc_street <- "1653 Westwood Ave"
 loc_city <- "Lakewood, OH 44107"
-loc_phone <- "(216) 521-3280"
+loc_phone <- "(216) 221-8558"
 leaflet(height = "300px") |>
   addTiles() |>
   setView(
