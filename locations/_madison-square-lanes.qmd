@@ -1,4 +1,4 @@
-## ![](images/madison-square-lanes-sign.jpg) {#madison-square-lanes}
+## ![](images/madison-square-lanes-logo.png) {#madison-square-lanes}
 
 ::: {layout-ncol=2}
 
