@@ -1,0 +1,38 @@
+## Lousy Smarch Threesome {#lousy-smarch-threesome-2025}
+
+> <i class="bi bi-geo-alt-fill"></i> [Madison-Square Lanes](../locations#madison-square-lanes)
+<br><i class="bi bi-calendar3"></i> March 26, 2025
+<br><i class="bi bi-person-circle"></i> Allen Rickard, Dan Negrey, Kevin Zerbey
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 5)
+```
+
+### Result {#lousy-smarch-threesome-2025-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#lousy-smarch-threesome-2025-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
+
+### Game 2 {#lousy-smarch-threesome-2025-game-2}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
+
+### Game 3 {#lousy-smarch-threesome-2025-game-3}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 3))
+```
