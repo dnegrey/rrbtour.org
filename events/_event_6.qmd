@@ -1,0 +1,31 @@
+## Beaver Moon Open {#beaver-moon-open-2025}
+
+> <i class="bi bi-geo-alt-fill"></i> [RollHouse North Olmsted](../locations#rollhouse-north-olmsted)
+<br><i class="bi bi-calendar3"></i> November 06, 2025
+<br><i class="bi bi-person-circle"></i> Brian Hennies, Dan Negrey, Jim Schenker, Kevin Zerbey
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 6)
+```
+
+### Result {#beaver-moon-open-2025-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#beaver-moon-open-2025-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
+
+### Game 2 {#beaver-moon-open-2025-game-2}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
