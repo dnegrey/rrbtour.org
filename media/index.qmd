@@ -1,0 +1,33 @@
+---
+title: "Tour Media"
+page-layout: full
+css: styles.css
+back-to-top-navigation: false
+format:
+  html:
+    resources: images/*
+    pagetitle: "Rocky River Bowling Tour - Media"
+execute:
+  echo: false
+  output: false
+---
+
+```{r}
+#| file: R/setup.R
+```
+
+# 2025
+
+## Tour Championship {#tour-championship-2025-media}
+
+::: {#media-tour-championship-2025 layout-ncol=3}
+
+![Pregame gathering at [Swinging Door Lounge](https://swingingdoorlounge.com/)](images/tour-championship-2025-pregame.jpg)
+
+![Brian Hennies - 2025 Tour Champion](images/tour-championship-2025-winner.jpg)
+
+![Postgame group photo](images/tour-championship-2025-group.jpeg)
+
+:::
+
+

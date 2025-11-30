@@ -24,6 +24,8 @@ website:
         href: events/index.qmd
       - text: "Locations"
         href: locations/index.qmd
+      - text: "Media"
+        href: media/index.qmd
 format:
   html:
     smooth-scroll: true

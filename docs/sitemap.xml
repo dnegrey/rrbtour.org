@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rrbtour.org/events/index.html</loc>
-    <lastmod>2025-11-08T00:51:27.628Z</lastmod>
+    <loc>https://rrbtour.org/media/index.html</loc>
+    <lastmod>2025-11-30T21:45:01.033Z</lastmod>
   </url>
   <url>
-    <loc>https://rrbtour.org/locations/index.html</loc>
-    <lastmod>2025-03-27T13:06:26.409Z</lastmod>
+    <loc>https://rrbtour.org/members/index.html</loc>
+    <lastmod>2025-11-27T19:17:19.079Z</lastmod>
   </url>
   <url>
     <loc>https://rrbtour.org/index.html</loc>
     <lastmod>2025-03-18T03:56:31.738Z</lastmod>
   </url>
   <url>
-    <loc>https://rrbtour.org/members/index.html</loc>
-    <lastmod>2025-03-24T00:11:24.559Z</lastmod>
+    <loc>https://rrbtour.org/locations/index.html</loc>
+    <lastmod>2025-11-27T19:20:13.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rrbtour.org/events/index.html</loc>
+    <lastmod>2025-11-30T20:52:29.825Z</lastmod>
   </url>
 </urlset>
