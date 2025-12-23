@@ -19,6 +19,8 @@ execute:
 
 {{< include _amf-brookgate-lanes.qmd >}}
 
+{{< include _fairview-lanes.qmd >}}
+
 {{< include _madison-square-lanes.qmd >}}
 
 {{< include _mahalls.qmd >}}
