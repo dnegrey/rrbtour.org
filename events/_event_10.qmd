@@ -1,0 +1,38 @@
+## Festivus Open {#festivus-open-2025}
+
+> <i class="bi bi-geo-alt-fill"></i> [Fairview Lanes](../locations#fairview-lanes)
+<br><i class="bi bi-calendar3"></i> December 22, 2025
+<br><i class="bi bi-person-circle"></i> Allen Rickard, Dan Negrey, Dave Wilson, Kevin Zerbey, Rian Spremulli
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 10)
+```
+
+### Result {#festivus-open-2025-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#festivus-open-2025-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
+
+### Game 2 {#festivus-open-2025-game-2}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
+
+### Game 3 {#festivus-open-2025-game-3}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 3))
+```
