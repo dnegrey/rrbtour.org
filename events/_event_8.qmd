@@ -1,4 +1,4 @@
-## Post-Championship Consolation {#post-championship-consolation-2025}
+## Championship Consolation {#championship-consolation-2025}
 
 > <i class="bi bi-geo-alt-fill"></i> [AMF Brookgate Lanes](../locations#amf-brookgate-lanes)
 <br><i class="bi bi-calendar3"></i> November 21, 2025
@@ -9,21 +9,21 @@ x <- read_tour_data() |>
   filter(EventId == 8)
 ```
 
-### Result {#post-championship-consolation-2025-result}
+### Result {#championship-consolation-2025-result}
 
 ```{r}
 #| output: true
 event_table(x)
 ```
 
-### Game 1 {#post-championship-consolation-2025-game-1}
+### Game 1 {#championship-consolation-2025-game-1}
 
 ```{r}
 #| output: true
 game_table(filter(x, Game == 1))
 ```
 
-### Game 2 {#post-championship-consolation-2025-game-2}
+### Game 2 {#championship-consolation-2025-game-2}
 
 ```{r}
 #| output: true
