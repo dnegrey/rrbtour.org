@@ -8,4 +8,5 @@ Depends:
   htmltools (>= 0.5.8.1),
   jsonlite (>= 1.9.0),
   leaflet (>= 2.2.2),
-  quarto (>= 1.4.4)
+  quarto (>= 1.4.4),
+  plotly (>= 4.11.0)
