@@ -1,0 +1,34 @@
+---
+title: "Tour Stats"
+toc: true
+toc-depth: 2
+toc-expand: true
+toc-title: "Member:"
+page-layout: full
+css: styles.css
+format:
+  html:
+    pagetitle: "Rocky River Bowling Tour - Stats"
+execute:
+  echo: false
+  output: true
+---
+
+```{r}
+#| output: false
+#| file: R/setup.R
+```
+
+{{< include _dnegrey.qmd >}}
+
+{{< include _jschenker.qmd >}}
+
+{{< include _kzerbey.qmd >}}
+
+{{< include _arickard.qmd >}}
+
+{{< include _bhennies.qmd >}}
+
+{{< include _rspremulli.qmd >}}
+
+{{< include _dwilson.qmd >}}

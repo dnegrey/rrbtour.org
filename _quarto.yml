@@ -20,6 +20,8 @@ website:
       - index.qmd
       - text: "Members"
         href: members/index.qmd
+      - text: "Stats"
+        href: stats/index.qmd
       - text: "Events"
         href: events/index.qmd
       - text: "Locations"

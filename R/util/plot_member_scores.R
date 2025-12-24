@@ -32,21 +32,36 @@ plot_member_scores <- function(member) {
       )
     ) |>
     layout(
+      margin = list(t = 65),
+      title = list(
+        text = "Member Score History",
+        xanchor = "left",
+        x = 0,
+        xref = "paper",
+        font = list(
+          color = "#FFFFFF",
+          size = 18
+        )
+      ),
       xaxis = list(
         title = NA_character_,
+        range = c(-0.2, nrow(x) + 1),
         showgrid = FALSE,
         showticklabels = FALSE,
         zerolinecolor = "#FFFFFF"
       ),
       yaxis = list(
         title = NA_character_,
-        range = c(0, 300),
+        range = c(0, 305),
         gridcolor = "#555555",
         zerolinecolor = "#FFFFFF",
         tickfont = list(color = "#FFFFFF")
       ),
       plot_bgcolor = "#333333",
       paper_bgcolor = "#333333"
+    ) |>
+    config(
+      displayModeBar = FALSE
     )
   return(y)
 }
