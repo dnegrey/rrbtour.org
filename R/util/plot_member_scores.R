@@ -1,7 +1,7 @@
 plot_member_scores <- function(member) {
   x <- read_tour_data() |>
     filter(Member == member) |>
-    arrange(EventDate, Game) |>
+    arrange(EventId, Game) |>
     mutate(GameNum = row_number())
   y <- plot_ly(x) |>
     add_trace(

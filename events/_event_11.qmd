@@ -1,0 +1,31 @@
+## Gear Up Duo {#gear-up-duo-2025}
+
+> <i class="bi bi-geo-alt-fill"></i> [AMF Brookgate Lanes](../locations#amf-brookgate-lanes)
+<br><i class="bi bi-calendar3"></i> December 26, 2025
+<br><i class="bi bi-person-circle"></i> Dan Negrey, Jim Schenker
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 11)
+```
+
+### Result {#gear-up-duo-2025-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#gear-up-duo-2025-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
+
+### Game 2 {#gear-up-duo-2025-game-2}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
