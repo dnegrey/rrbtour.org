@@ -1,0 +1,24 @@
+## New Year Warm-up {#new-year-warmup-2026}
+
+> <i class="bi bi-geo-alt-fill"></i> [Fairview Lanes](../locations#fairview-lanes)
+<br><i class="bi bi-calendar3"></i> January 02, 2026
+<br><i class="bi bi-person-circle"></i> Dan Negrey, Kevin Zerbey
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 12)
+```
+
+### Result {#new-year-warmup-2026-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#new-year-warmup-2026-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```

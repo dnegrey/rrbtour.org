@@ -1,0 +1,13 @@
+{
+  "date": "2026-01-02",
+  "name": "New Year Warm-up",
+  "tag": "new-year-warmup-2026",
+  "location": "Fairview Lanes",
+  "loc_short": "fairview-lanes",
+  "Dan Negrey": {
+    "1": [10, null, 9, 1, 8, 2, 6, 4, 9, 0, 10, null, 10, null, 9, 0, 7, 2, 8, 2, 9]
+  },
+  "Kevin Zerbey": {
+    "1": [9, 1, 10, null, 7, 2, 7, 2, 10, null, 10, null, 10, null, 10, null, 9, 1, 7, 1]
+  }
+}

@@ -18,6 +18,10 @@ execute:
 #| file: R/setup.R
 ```
 
+# 2026
+
+{{< include _event_12.qmd >}}
+
 # 2025
 
 {{< include _event_11.qmd >}}
