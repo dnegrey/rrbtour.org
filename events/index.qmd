@@ -20,6 +20,8 @@ execute:
 
 # 2026
 
+{{< include _event_14.qmd >}}
+
 {{< include _event_13.qmd >}}
 
 {{< include _event_12.qmd >}}

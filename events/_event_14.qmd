@@ -1,0 +1,38 @@
+## Super Bowl Eve Open {#super-bowl-eve-open-2026}
+
+> <i class="bi bi-geo-alt-fill"></i> [Spins Bowl Independence](../locations#spins-bowl-independence)
+<br><i class="bi bi-calendar3"></i> February 07, 2026
+<br><i class="bi bi-person-circle"></i> Allen Rickard, Dan Negrey, Dave Wilson, Kevin Zerbey
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 14)
+```
+
+### Result {#super-bowl-eve-open-2026-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#super-bowl-eve-open-2026-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
+
+### Game 2 {#super-bowl-eve-open-2026-game-2}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
+
+### Game 3 {#super-bowl-eve-open-2026-game-3}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 3))
+```
