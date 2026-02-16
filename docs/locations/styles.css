@@ -4,6 +4,7 @@
 
 #fairview-lanes h2 img {
   width: 350px;
+  border-radius: 5px;
 }
 
 #madison-square-lanes h2 img {
@@ -15,8 +16,17 @@
 }
 
 #rollhouse-north-olmsted h2 img {
-  background-color: #000000;
   width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+#spins-bowl-independence h2 img {
+  height: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #000000;
 }
 
 .quarto-layout-panel .quarto-layout-row .quarto-layout-cell {

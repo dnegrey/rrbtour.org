@@ -26,3 +26,5 @@ execute:
 {{< include _mahalls.qmd >}}
 
 {{< include _rollhouse-north-olmsted.qmd >}}
+
+{{< include _spins-bowl-independence.qmd >}}
