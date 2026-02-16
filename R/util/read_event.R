@@ -16,14 +16,16 @@ read_event <- function(f) {
   rm(mem, games)
   for (m in y$members) {
     for (g in 1:y$num_games) {
-      tmp <- transpose_score(score_game(x[[m]][[g]]))
-      tmp <- cbind(
-        data.frame(Member = m, Game = g, tmp)
-      )
-      if (!("scores" %in% ls())) {
-        scores <- tmp
-      } else {
-        scores <- rbind(scores, tmp)
+      if (!is.null(x[[m]][[as.character(g)]])) {
+        tmp <- transpose_score(score_game(x[[m]][[g]]))
+        tmp <- cbind(
+          data.frame(Member = m, Game = g, tmp)
+        )
+        if (!("scores" %in% ls())) {
+          scores <- tmp
+        } else {
+          scores <- rbind(scores, tmp)
+        }
       }
     }
   }

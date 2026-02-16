@@ -1,0 +1,38 @@
+## Presidents' Day Threesome {#presidents-day-threesome-2026}
+
+> <i class="bi bi-geo-alt-fill"></i> [Fairview Lanes](../locations#fairview-lanes)
+<br><i class="bi bi-calendar3"></i> February 16, 2026
+<br><i class="bi bi-person-circle"></i> Dan Negrey, Kevin Zerbey, Rian Spremulli
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 15)
+```
+
+### Result {#presidents-day-threesome-2026-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#presidents-day-threesome-2026-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
+
+### Game 2 {#presidents-day-threesome-2026-game-2}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
+
+### Game 3 {#presidents-day-threesome-2026-game-3}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 3))
+```

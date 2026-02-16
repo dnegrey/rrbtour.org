@@ -10,7 +10,7 @@ summarize_event <- function(x) {
     tmp <- filter(y, Game == i) |>
       select(Member, GameScore)
     names(tmp)[2] <- paste("Game", i)
-    yt <- inner_join(yt, tmp, "Member")
+    yt <- left_join(yt, tmp, "Member")
   }
   yt <- yt |>
     mutate(Total = TotalScore) |>
