@@ -16,6 +16,20 @@ execute:
 #| file: R/setup.R
 ```
 
+# 2026
+
+## Super Bowl Eve Open {#super-bowl-eve-open-2026-media}
+
+::: {#media-super-bowl-eve-open-2026}
+
+The group celebrated after the event by raising a toast to co-founder Dan
+Negrey who bowled his first career 200 game earlier in the evening! This was
+also the first 200 game bowled on the tour. Congratulations Dan!
+
+![Postgame group photo at [Char Whiskey Bar & Grille](https://char-rockyriver.com/)](images/super-bowl-eve-open-2026-postgame.jpg)
+
+:::
+
 # 2025
 
 ## Tour Championship {#tour-championship-2025-media}
@@ -26,7 +40,7 @@ execute:
 
 ![Brian Hennies - 2025 Tour Champion](images/tour-championship-2025-winner.jpg)
 
-![Postgame group photo](images/tour-championship-2025-group.jpeg)
+![Postgame group photo](images/tour-championship-2025-group.jpg)
 
 :::
 
