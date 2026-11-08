@@ -1,4 +1,4 @@
-## ![](images/amf-brookgate-lanes-logo.png) Brookgate Lanes {#amf-brookgate-lanes}
+## ![](images/amf-logo.png) Brookgate Lanes {#amf-brookgate-lanes}
 
 ::: {layout-ncol=2}
 
