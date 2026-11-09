@@ -29,4 +29,6 @@ execute:
 
 {{< include _rollhouse-north-olmsted.qmd >}}
 
+{{< include _spevocks-nautical-lanes.qmd >}}
+
 {{< include _spins-bowl-independence.qmd >}}
