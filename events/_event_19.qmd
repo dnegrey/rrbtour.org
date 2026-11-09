@@ -1,0 +1,31 @@
+## Fall Invitational {#fall-invitational-2026}
+
+> <i class="bi bi-geo-alt-fill"></i> [RollHouse North Olmsted](../locations#rollhouse-north-olmsted)
+<br><i class="bi bi-calendar3"></i> November 07, 2026
+<br><i class="bi bi-person-circle"></i> Dan Negrey, Dave Wilson, Jake Filipic, Luciano Silvestro
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 19)
+```
+
+### Result {#fall-invitational-2026-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#fall-invitational-2026-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
+
+### Game 2 {#fall-invitational-2026-game-2}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```

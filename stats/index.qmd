@@ -32,3 +32,7 @@ execute:
 {{< include _rspremulli.qmd >}}
 
 {{< include _dwilson.qmd >}}
+
+{{< include _lsilvestro.qmd >}}
+
+{{< include _jfilipic.qmd >}}

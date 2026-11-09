@@ -31,4 +31,8 @@ execute:
 
 {{< include _dwilson.qmd >}}
 
+{{< include _lsilvestro.qmd >}}
+
+{{< include _jfilipic.qmd >}}
+
 :::
