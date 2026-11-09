@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-08",
+  "name": "Spring Classic",
+  "tag": "spring-classic-2026",
+  "location": "AMF North Ridgeville Lanes",
+  "loc_short": "amf-north-ridgeville-lanes",
+  "Kevin Zerbey": {
+    "1": [10, null, 9, 1, 8, 0, 4, 6, 9, 0, 6, 4, 8, 1, 6, 4, 10, null, 6, 0],
+    "2": [6, 3, 8, 0, 6, 4, 9, 1, 9, 0, 7, 0, 7, 2, 9, 0, 10, null, 10, 10, 10]
+  },
+  "Dan Negrey": {
+    "1": [0, 8, 9, 1, 10, null, 6, 3, 9, 1, 9, 1, 10, null, 7, 0, 8, 1, 9, 0],
+    "2": [9, 1, 10, null, 8, 2, 5, 0, 2, 7, 10, null, 7, 3, 10, null, 9, 0, 9, 1, 5]
+  },
+  "Allen Rickard": {
+    "1": [7, 2, 4, 6, 7, 3, 10, null, 10, null, 8, 1, 9, 1, 8, 0, 9, 1, 10, 8, 2],
+    "2": [10, null, 7, 1, 7, 2, 7, 2, 2, 8, 10, null, 9, 0, 10, null, 10, null, 9, 0]
+  }
+}

@@ -1,0 +1,31 @@
+## Spring Classic {#spring-classic-2026}
+
+> <i class="bi bi-geo-alt-fill"></i> [AMF North Ridgeville Lanes](../locations#amf-north-ridgeville-lanes)
+<br><i class="bi bi-calendar3"></i> April 08, 2026
+<br><i class="bi bi-person-circle"></i> Allen Rickard, Dan Negrey, Kevin Zerbey
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 17)
+```
+
+### Result {#spring-classic-2026-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#spring-classic-2026-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
+
+### Game 2 {#spring-classic-2026-game-2}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
