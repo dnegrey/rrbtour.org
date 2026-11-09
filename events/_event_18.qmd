@@ -1,0 +1,38 @@
+## Summer Open {#summer-open-2026}
+
+> <i class="bi bi-geo-alt-fill"></i> [Spevock's Nautical Lanes](../locations#spevocks-nautical-lanes)
+<br><i class="bi bi-calendar3"></i> August 14, 2026
+<br><i class="bi bi-person-circle"></i> Dan Negrey, Jim Schenker, Kevin Zerbey
+
+```{r}
+x <- read_tour_data() |>
+  filter(EventId == 18)
+```
+
+### Result {#summer-open-2026-result}
+
+```{r}
+#| output: true
+event_table(x)
+```
+
+### Game 1 {#summer-open-2026-game-1}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 1))
+```
+
+### Game 2 {#summer-open-2026-game-2}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 2))
+```
+
+### Game 3 {#summer-open-2026-game-3}
+
+```{r}
+#| output: true
+game_table(filter(x, Game == 3))
+```
