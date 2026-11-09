@@ -18,6 +18,22 @@ execute:
 
 # 2026
 
+## Spring Classic {#spring-classic-2026-media}
+
+The tour's [first event outside Cuyahoga County](../events#spring-classic-2026)
+took place at
+[AMF North Ridgeville Lanes](../locations#amf-north-ridgeville-lanes). The crew
+bowled two good games before closing time cut short a strong start to game 3. A
+brief visit to Time Warp in Westlake took place after.
+
+::: {#media-spring-classic-2026 layout-ncol=2}
+
+![Partial game 3 scores](images/spring-classic-2026-partial-game-3.jpg)
+
+![Postgame gathering at [Time Warp Bar](https://timewarpbar.com/wp/)](images/spring-classic-2026-postgame.jpg)
+
+:::
+
 ## Super Bowl Eve Open {#super-bowl-eve-open-2026-media}
 
 ::: {#media-super-bowl-eve-open-2026}
